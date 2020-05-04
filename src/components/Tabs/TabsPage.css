@@ -1,0 +1,17 @@
+.tabs {
+    position: absolute;
+    text-align: center;
+    top: 65%;
+    left: 33%;
+    width: 40%;
+}
+
+@media (min-width: 400px) and (max-width: 750px) {
+    .tabs {
+        position: relative;
+        width: 80%;
+        top: 20%;
+        left: 50px;
+        font-size: 20px;
+    }
+}

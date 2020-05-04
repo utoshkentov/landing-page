@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+.main-div {
+    position: absolute;
+    top: 28%;
+    left: 38%;
+    color: white;
+}
+
+.garden {
+    color: white;
+    letter-spacing: 10px;
+    font: normal 50px 'Quicksand', sans-serif;
+    text-transform: uppercase;
+}
+
+@media (min-width: 400px) and (max-width: 750px){
+    .main-div {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        left: 0;
+        top: 60px;
+    }
+}

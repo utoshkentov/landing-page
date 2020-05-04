@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.navbarMain {
+    padding: 15px;
+    width: 80%;
+    height: 70px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 125px;
+    top: 30px;
+}
+
+
+
+/*Text Centered*/
+.text-logo {
+    color: white;
+    opacity: 0.9;
+    padding: 2px;
+}
+
+.item {
+    position: relative;
+    height: 11px;
+    left: 11.87%;
+    right: 12.33%;
+    top: calc(50% - 11px/2 - 19.5px);
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.item2 {
+    position: relative;
+    left: 20px;
+    font: lighter 40px 'Great Vibes';
+}
+
+/*Language Buttons*/
+.languages {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.menu-button {
+    position: relative;
+    top: -5px
+}
+
+
+@media (min-width: 400px) and (max-width: 740px){
+    .navbarMain {
+        position: relative;
+        display: block;
+        background-color: red;
+        left: 40px;
+    }
+
+    .item, .item2, .Uzbek, .English {
+        display: none;
+    }
+
+    .menu-button {
+        position: relative;
+        top: -60px;
+    }
+}
+
+.closed:hover {
+    cursor: grab;
+}
+
+.items:hover {
+    color: dodgerblue !important;
+    text-decoration: none !important;
+    text-underline: none;
+}
+
+.link-soc {
+    color: inherit;
+}
+
+
+.link-soc:hover {
+    color: dodgerblue;
+}
+
+
+.link-soc:last-child:hover {
+    color: orangered;
+}
